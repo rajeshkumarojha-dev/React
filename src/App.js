@@ -8,6 +8,8 @@ import HideShow from './component/Hide&Show/HideShow';
 import Forms from './component/Forms/Forms';
 import UseeffectHooks from './component/UseEffect/UseeffectHooks';
 import Mapping from './component/Array/Mapping';
+import UseMemoHook from './component/UseMemo/UseMemoHook';
+import SearchBar from './component/searchBar/SearchBar';
 
 function App() {
   return (
@@ -21,28 +23,36 @@ function App() {
         <User />
       </div>
       <h1 className='U'>Use State in React</h1>
-        <StateName />
+      <StateName />
       <h1 className='U'>Use Props in React</h1>
-        <Props name={"Django"} />
-        <Props name={"ReactJs"} />
-        <Props name={"MySql"} />
+      <Props name={"Django"} />
+      <Props name={"ReactJs"} />
+      <Props name={"MySql"} />
       <h1 className="U">Input Value</h1>
-        <PrintVal/>
+      <PrintVal />
       <h1 className="U">Hide And Show</h1>
-        <HideShow/>
+      <HideShow />
 
-        <div className="forms">
-          <Forms/>
-        </div>
+      <div className="forms">
+        <Forms />
+      </div>
 
-        <div className="useeffect">
-          <h1 className='U'>UseEffect</h1>
-          <UseeffectHooks/>
-        </div>
-        <div className="array">
+      <div className="useeffect">
+        <h1 className='U'>UseEffect</h1>
+        <UseeffectHooks />
+      </div>
+      <div className="array">
         <h1 className="U">ARRAY LIST</h1>
-          <Mapping/>
-        </div>
+        <Mapping />
+      </div>
+      <div className="usememo">
+        <h1 className='U'>Use Memo</h1>
+        <UseMemoHook/>
+      </div>
+      <div className="searchbar">
+        <h1 className="U">Search Bar</h1>
+        <SearchBar/>
+      </div>
     </div>
   );
 }

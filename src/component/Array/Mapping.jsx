@@ -58,7 +58,11 @@ const Mapping = () => {
                     }
                 </tbody>
             </table>
-            <Users data={users} />
+            <div className="reuse">
+                <h1 className='U'>ReUse Component</h1>
+                <Users data={users} />
+            </div>
+            
         </div>
     )
 }

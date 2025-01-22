@@ -16,7 +16,7 @@ const Users = (props) => {
           {
             props.data.map((item,i) =>
               <tr key={i}>
-                <UserData user={item}/>
+                <UserData user={item} key={i}/>
               </tr>
             )
           }
