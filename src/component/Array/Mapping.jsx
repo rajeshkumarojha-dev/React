@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Users from '../ReUse/Users';
 const Mapping = () => {
     const users = [
         {
@@ -58,6 +58,7 @@ const Mapping = () => {
                     }
                 </tbody>
             </table>
+            <Users data={users} />
         </div>
     )
 }
