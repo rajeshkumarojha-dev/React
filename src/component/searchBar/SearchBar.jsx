@@ -21,6 +21,7 @@ const SearchBar = () => {
     
   return (
     <div>
+      <h1>This is Search Bar Page</h1>
       <input type="text" placeholder='Enter Name' value={data} onChange={changeHandler} />
       {
         result.map((item)=>
