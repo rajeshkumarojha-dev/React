@@ -13,6 +13,8 @@ import UseRefHook from '../../Hooks/Useref/UseRefHook';
 import UseMemoHooks from '../../Hooks/UseMemo/UseMemoHook';
 import Component from '../../subcomponent/Component';
 import Data from '../../DynamicRoute/Data';
+import Todo from '../../TodoList/Todo';
+import GetMethod from '../../API/GetMethod';
 
 const Routeweb = () => {
     return (
@@ -31,6 +33,8 @@ const Routeweb = () => {
                 <Route path='/useref' element={<UseRefHook/>} />
                 <Route path='/subcomponent' element={<Component/>} />
                 <Route path='/data/:id/:name' element={<Data/>} />
+                <Route path='/todo' element={<Todo/>}/>
+                <Route path='/getapi' element={<GetMethod/>}/>
             </Routes>
 
         </>

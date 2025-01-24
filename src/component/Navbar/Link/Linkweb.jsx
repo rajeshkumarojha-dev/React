@@ -15,6 +15,8 @@ const Linkweb = () => {
       <Link to='/useref'>UseRef</Link><br />
       <Link to='/subcomponent'>Subcomponent</Link><br />
       <Link to='/data/:id/:name'>Dynamic Route</Link><br />
+      <Link to='/todo'>TODO LIST</Link><br />
+      <Link to='/getapi'>GetApi</Link><br />
     </div>
   )
 }
