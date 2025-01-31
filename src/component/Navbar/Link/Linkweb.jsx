@@ -17,6 +17,7 @@ const Linkweb = () => {
       <Link to='/data/:id/:name'>Dynamic Route</Link><br />
       <Link to='/todo'>TODO LIST</Link><br />
       <Link to='/getapi'>GetApi</Link><br />
+      <Link to='/searchname'>Search Input</Link>
     </div>
   )
 }

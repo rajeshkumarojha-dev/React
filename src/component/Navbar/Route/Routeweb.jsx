@@ -15,6 +15,7 @@ import Component from '../../subcomponent/Component';
 import Data from '../../DynamicRoute/Data';
 import Todo from '../../TodoList/Todo';
 import GetMethod from '../../API/GetMethod';
+import SearchNames from '../../SearchNames/SearchNames'
 
 const Routeweb = () => {
     return (
@@ -35,6 +36,7 @@ const Routeweb = () => {
                 <Route path='/data/:id/:name' element={<Data/>} />
                 <Route path='/todo' element={<Todo/>}/>
                 <Route path='/getapi' element={<GetMethod/>}/>
+                <Route path='/searchname' element={<SearchNames/>} />
             </Routes>
 
         </>
